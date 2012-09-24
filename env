@@ -1,7 +1,8 @@
 #!/bin/sh
 
-DIR=$(dirname $(readlink -f $0))
-ARCHNAME=$(perl -MConfig -e 'print $Config{archname}')
+ME="${BASH_SOURCE[0]:-$0}"
+DIR=$( dirname $(readlink -f $ME) )
+ARCHNAME=$( perl -MConfig -e 'print $Config{archname}' )
 
 export PERL5LIB=$DIR/extlib/lib/perl5:$DIR/extlib/lib/perl5/$ARCHNAME
 export PERL5OPT="-Mlib=$DIR/extlib/lib/perl5"
