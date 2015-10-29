@@ -1,52 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cpan-whois>
   <cpanid>
-    <id>HACHI</id>
+    <id>ADAMK</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>UMEMOTO</id>
+    <id>BRADFITZ</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>MUIR</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>MLEHMANN</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>MLEHMANN</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>MSCHWERN</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>MSCHWERN</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>YVES</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>JPEACOCK</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>JHI</id>
+    <id>BRADFITZ</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
@@ -56,37 +21,32 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>BRADFITZ</id>
+    <id>DORMANDO</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>BRADFITZ</id>
+    <id>DORMANDO</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>GAAS</id>
+    <id>DORMANDO</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>GAAS</id>
+    <id>DORMANDO</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>GAAS</id>
+    <id>DOUGW</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>GAAS</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>GAAS</id>
+    <id>DSKOLL</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
@@ -131,7 +91,72 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>TIMB</id>
+    <id>GAAS</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>GAAS</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>GAAS</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>GAAS</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>GAAS</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>HACHI</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>JHI</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>JPEACOCK</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>MLEHMANN</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>MLEHMANN</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>MSCHWERN</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>MSCHWERN</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>MUIR</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>PETDANCE</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
@@ -156,42 +181,17 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>PETDANCE</id>
+    <id>TIMB</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>ADAMK</id>
+    <id>UMEMOTO</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>DOUGW</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>DORMANDO</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>DORMANDO</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>DORMANDO</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>DORMANDO</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
-    <id>DSKOLL</id>
+    <id>YVES</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
