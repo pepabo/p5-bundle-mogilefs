@@ -41,6 +41,11 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
+    <id>DORMANDO</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
     <id>DOUGW</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
