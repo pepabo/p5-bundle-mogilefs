@@ -8,7 +8,7 @@ WriteMakefile(
         'DBD::mysql'         => undef,
         'DBD::SQLite'        => undef,
         'MogileFS::Client'   => '1.16',
-        'MogileFS::Server'   => '2.70',
+        'MogileFS::Server'   => '2.72',
         'MogileFS::Utils'    => '2.29',
         'MogileFS::Network'  => '0.06',
     },
