@@ -7,4 +7,6 @@ ADD . /opt/mogilefs
 WORKDIR /opt/mogilefs
 RUN ./install.sh
 
-ENTRYPOINT ["bash", "/opt/mogilefs/env"]
+EXPOSE 7001
+ENTRYPOINT ["bash", "/opt/mogilefs/docker/entrypoint.sh"]
+CMD ["mogilefsd"]
