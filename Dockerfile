@@ -1,5 +1,4 @@
 FROM centos:6
-MAINTAINER pepabo.com
 
 RUN yum install -y tar patch gcc perl-core mysql-devel
 
