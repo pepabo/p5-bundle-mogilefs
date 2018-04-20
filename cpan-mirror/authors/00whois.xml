@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cpan-whois>
   <cpanid>
+    <id>RJBS</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
     <id>UMEMOTO</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>ISHIGAKI</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
@@ -76,7 +86,7 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>ADAMK</id>
+    <id>FDALY</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
