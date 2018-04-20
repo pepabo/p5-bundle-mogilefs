@@ -1,6 +1,6 @@
 FROM centos:6
 
-RUN yum install -y tar patch gcc perl-core mysql-devel
+RUN yum install -y tar patch gcc perl-core mysql-devel make
 
 ADD . /opt/mogilefs
 WORKDIR /opt/mogilefs
