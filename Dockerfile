@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:7
 
 RUN yum install -y tar patch gcc perl-core mysql-devel make
 
