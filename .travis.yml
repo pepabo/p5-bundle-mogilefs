@@ -6,4 +6,4 @@ perl:
 - '5.16' # centos 7
 - '5.10' # centos.6
 install: true
-script: ./env ./install.sh
+script: ./cpanm -L extlib --mirror=$(pwd)/cpan-mirror/ --installdeps . "$@"
