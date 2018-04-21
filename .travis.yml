@@ -1,0 +1,6 @@
+language: perl
+perl:
+- '5.26' # ubuntu 18.04
+- '5.24' # debian 9
+- '5.16' # centos 7
+- '5.10' # centos.6
