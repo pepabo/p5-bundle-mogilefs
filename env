@@ -1,5 +1,14 @@
 #!/bin/sh
 
+readlink() {
+    if [ "$(uname)" == 'Darwin' ]; then
+        # use coreutils
+        command greadlink "$@"
+    else
+        command readlink "$@"
+    fi
+}
+
 ME="${BASH_SOURCE[0]:-$0}"
 DIR=$( dirname $(readlink -f $ME) )
 ARCHNAME=$( perl -MConfig -e 'print $Config{archname}' )
