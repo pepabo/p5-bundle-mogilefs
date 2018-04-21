@@ -1,8 +1,7 @@
-p5-bundle-mogilefs
+p5-bundle-mogilefs ![Docker Automated build](https://img.shields.io/docker/automated/pepabo/mogilefs.svg?style=flat-square) ![Docker Build Status](https://img.shields.io/docker/build/pepabo/mogilefs.svg?style=flat-square)
 ==================
 
 [mogilefs](https://github.com/mogilefs)全部入り
-
 
 How to update cpan modules
 ---
