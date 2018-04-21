@@ -2,6 +2,15 @@
 
 set -e
 
+readlink() {
+    if [ "$(uname)" == 'Darwin' ]; then
+        # use coreutils
+        command greadlink "$@"
+    else
+        command readlink "$@"
+    fi
+}
+
 DIR=$(dirname $(readlink -f $0))
 cd $DIR
 
