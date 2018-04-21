@@ -1,9 +1,19 @@
 sudo: false
 language: perl
 perl:
-- '5.26' # ubuntu 18.04
-- '5.24' # debian 9
-- '5.16' # centos 7
-- '5.10' # centos.6
+  - '5.26' # ubuntu 18.04
+  - '5.24' # debian 9
+  - '5.16' # centos 7
+  - '5.10' # centos.6
+addons:
+  apt:
+    packages:
+      - tar
+      - patch
+      - gcc
+      - perl
+      - libmysqlclient-dev
+      - make
 install: true
-script: ./cpanm -L extlib --mirror=$(pwd)/cpan-mirror/ --installdeps . "$@"
+script:
+  - ./install.sh
