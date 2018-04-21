@@ -7,7 +7,7 @@ WriteMakefile(
     PREREQ_PM => {
         'DBD::mysql'         => undef,
         'DBD::SQLite'        => undef,
-        'MogileFS::Client'   => '1.16',
+        'MogileFS::Client'   => '1.17',
         'MogileFS::Server'   => '2.73',
         'MogileFS::Utils'    => '2.30',
         'MogileFS::Network'  => '0.06',
