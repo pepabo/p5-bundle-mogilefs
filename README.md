@@ -1,4 +1,4 @@
-p5-bundle-mogilefs [![Travis](https://img.shields.io/travis/pepabo/p5-bundle-mogilefs.svg?style=flat-square)](https://travis-ci.org/pepabo/p5-bundle-mogilefs)![Docker Automated build](https://img.shields.io/docker/automated/pepabo/mogilefs.svg?style=flat-square)![Docker Build Status](https://img.shields.io/docker/build/pepabo/mogilefs.svg?style=flat-square)
+p5-bundle-mogilefs [![Travis](https://img.shields.io/travis/pepabo/p5-bundle-mogilefs.svg?style=flat-square)](https://travis-ci.org/pepabo/p5-bundle-mogilefs)[![Docker Automated build](https://img.shields.io/docker/automated/pepabo/mogilefs.svg?style=flat-square)](https://hub.docker.com/r/pepabo/mogilefs/~/dockerfile/)[![Docker Build Status](https://img.shields.io/docker/build/pepabo/mogilefs.svg?style=flat-square)](https://hub.docker.com/r/pepabo/mogilefs/builds/)
 ==================
 
 [mogilefs](https://github.com/mogilefs)全部入り
