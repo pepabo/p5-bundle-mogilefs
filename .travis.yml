@@ -5,5 +5,5 @@ perl:
 - '5.24' # debian 9
 - '5.16' # centos 7
 - '5.10' # centos.6
-script:
-- ./env ./install.sh
+install: true
+script: ./env ./install.sh
