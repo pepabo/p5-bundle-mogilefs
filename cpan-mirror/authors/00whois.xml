@@ -101,11 +101,6 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>MSCHWERN</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
     <id>MALLEN</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
@@ -192,6 +187,11 @@
   </cpanid>
   <cpanid>
     <id>ETHER</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>BINGOS</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
