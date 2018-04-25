@@ -66,17 +66,17 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
-    <id>GAAS</id>
-    <type>author</type>
-    <has_cpandir>1</has_cpandir>
-  </cpanid>
-  <cpanid>
     <id>TIMB</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
     <id>ADAMK</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>HAARG</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
@@ -147,6 +147,11 @@
   </cpanid>
   <cpanid>
     <id>DSKOLL</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
+    <id>ETHER</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
   </cpanid>
