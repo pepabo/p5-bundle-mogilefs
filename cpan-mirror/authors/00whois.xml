@@ -121,6 +121,11 @@
     <has_cpandir>1</has_cpandir>
   </cpanid>
   <cpanid>
+    <id>CORION</id>
+    <type>author</type>
+    <has_cpandir>1</has_cpandir>
+  </cpanid>
+  <cpanid>
     <id>CAPTTOFU</id>
     <type>author</type>
     <has_cpandir>1</has_cpandir>
