@@ -6,24 +6,28 @@ p5-bundle-mogilefs [![Travis](https://img.shields.io/travis/pepabo/p5-bundle-mog
 How to update cpan modules
 ---
 
-### 1. Download a module to cpam-mirror directory
+### 1. Install OrePAN2
 
 ```sh
-wget http://search.cpan.org/CPAN/authors/id/<P>/<PA>/<PATH>/<PATH TO module> -P cpan-mirror/authors/id/<P>/<PA>/<PATH>/
+./cpanm -Lextlib Module::Install OrePAN2
+```
+
+### 2. Download a module to cpam-mirror directory
+
+```sh
+perl -Iextlib/lib/perl5 extlib/bin/orepan2-inject http://cpan.metacpan.org/authors/id/<P>/<PA>/<PATH>/<PATH TO module> cpan-mirror/authors/id/<P>/<PA>/<PATH>/
 
 # Remove old version module if needed
 unlink cpan-mirror/authors/id/<P>/<PA>/<PATH>/<PATH TO module>
 ```
 
-### 2. Make index of orepan
+### 3. Make index
 
 ```sh
-./cpanm -Lextlib Module::Install
-./cpanm -Lextlib OrePAN
-perl -Iextlib/lib/perl5 extlib/bin/orepan_index.pl --repository=cpan-mirror/
+perl -Iextlib/lib/perl5 extlib/bin/orepan2-indexer cpan-mirror/
 ```
 
-### 3. commit
+### 4. commit
 
 ```sh
 # If you need to change MogileFS modules, update Makefile.PL to bump up version.
