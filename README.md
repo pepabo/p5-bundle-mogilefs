@@ -15,7 +15,7 @@ How to update cpan modules
 ### 2. Download a module to cpam-mirror directory
 
 ```sh
-./env orepan2-inject http://cpan.metacpan.org/authors/id/<P>/<PA>/<PATH TO>/<MODULE>.tar.gz cpan-mirror
+./env orepan2-inject --author=AUTHOR http://cpan.metacpan.org/authors/id/<A>/<AU>/<AUTHOR>/<MODULE>.tar.gz cpan-mirror
 
 # Remove old version module if needed
 unlink cpan-mirror/authors/id/<P>/<PA>/<PATH>/<PATH TO module>
