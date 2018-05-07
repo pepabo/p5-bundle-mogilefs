@@ -15,7 +15,7 @@ How to update cpan modules
 ### 2. Download a module to cpam-mirror directory
 
 ```sh
-perl -Iextlib/lib/perl5 extlib/bin/orepan2-inject http://cpan.metacpan.org/authors/id/<P>/<PA>/<PATH>/<PATH TO module> cpan-mirror/authors/id/<P>/<PA>/<PATH>/
+./env orepan2-inject http://cpan.metacpan.org/authors/id/<P>/<PA>/<PATH TO>/<MODULE>.tar.gz cpan-mirror
 
 # Remove old version module if needed
 unlink cpan-mirror/authors/id/<P>/<PA>/<PATH>/<PATH TO module>
@@ -24,7 +24,7 @@ unlink cpan-mirror/authors/id/<P>/<PA>/<PATH>/<PATH TO module>
 ### 3. Make index
 
 ```sh
-perl -Iextlib/lib/perl5 extlib/bin/orepan2-indexer cpan-mirror/
+./env orepan2-indexer cpan-mirror/
 ```
 
 ### 4. commit
