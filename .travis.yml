@@ -25,4 +25,4 @@ before_script:
  - mv MogileFS-Server-2.73.tar.gz.new MogileFS-Server-2.73.tar.gz
  - popd
 script:
-  - ./install.sh
+  - ./cpanm -L extlib --mirror=$(pwd)/cpan-mirror/ --mirror-only --installdeps --test-only .

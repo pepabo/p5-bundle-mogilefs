@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME      => 'Bundle::MogileFS',
     VERSION   => '0.01',
-    AUTHOR    => 'ryo kuroda <kuroda@paperboy.co.jp>',
+    AUTHOR    => 'ryo kuroda <lamanotrama@gmail.com>',
     PREREQ_PM => {
         'DBD::mysql'         => undef,
         'DBD::SQLite'        => undef,
